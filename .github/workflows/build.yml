@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q FantasyWalls.zip
+      - run: unzip -q "FantasyWalls (3).zip"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
